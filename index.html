@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sim Haze Racing</title>
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="styleaboutus.css">
+  <script src="script.js"></script>
+  <script src="scriptreadmore.js"></script>
+</head>
+<body style="background-image: url(back.JPG); overflow: hidden; overflow-y: scroll; scroll-behavior: smooth;">
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="index.html">Sim Haze Racing</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="categories.html" class="desktop-link">Categories</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Categories</label>
+            <ul>
+              <li><a href="pdf/beginner.pdf">Beginner</a></li>
+              <li><a href="amacat.html">Amateur</a></li>
+              <!-- <li><a href="procat.html">Professional</a></li> -->
+              <li><a href="diy.html">DIY</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="accessories.html" class="desktop-link">Accessories</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Accessories</label>
+            <ul>
+              <li><a href="acsw.html">Steering Wheels</a></li>
+              <li><a href="pdf/seats.pdf">Seats</a></li>
+              <li><a href="pdf/screenstand.pdf">Screen Mount</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="pdf/cmount.pdf">Cockpit Mount</a></li>
+                  <li><a href="pdf/add">Add-ons</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#aboutus">About</a></li>
+          <li><a href="#contactus">Feedback</a></li>
+        </ul>
+      </div>
+      <div></div>
+    </nav>
+  </div>
+  <br><br><br><br>
+  <!-- home begin -->
+  <div><img src="1.png" alt="" style="width: 85%;margin-left: 7.5%;"></div>
+  <br><br>
+  <!-- <div style="position:static; overflow: hidden; padding: 1% 1%; background-color:white;margin: 0 20%; border-radius: 10px;"><video style="width: 100%;margin: 0 0%;position:static" controls autoplay muted><source src="video/Your AI video.mp4" type="Video/mp4" ></video></div> -->
+  <div style="padding-top: 5%">
+    <h3 style="text-align: center;color: white;">Categories</h3>
+    <a href="categories.html"><img class="img" src="pic/1.png" alt="" style="margin-left: 30%;margin-right: 30%;width: 40%;"></a>
+  </div>
+  <div style="padding: 5%;">
+    <h3 style="text-align: center;color: white;">Accessories</h3>
+    <a href="accessories.html"><img class="img" src="pic/2.png" alt="" style="margin-left: 30%;margin-right: 30%;width: 40%;"></a>
+  </div>
+  <!-- about us begin -->
+  <div id="aboutus" class="section">
+    <div class="container">
+        <div class="content-section">
+            <div class="title">
+                <h1>About Us</h1>
+            </div>
+            <!-- <div class="content">
+                <h3>Lorem ipsum dolor sit amet, consectetur adipisicing</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.</p>
+                <div class="button">
+                    <a href="#contactus">Contact Us</a>
+                </div> -->
+              <p>SIMHAZE RACING initiated by Eng Bilal Zaweel, creator of 
+concept and executive Chief of Virtual Racing Project Prototype.<br>
+SIMHAZERACING was established in 2016 for the passion of 
+driving with one mandate: To provide high quality 
+advanced learning solutions.<span id="dots">...</span></p><p><span id="more">
+SIMHAZE RACING in collaboration with DRIFTKING 
+Academy, had a vision of a world with saful drivers, a world 
+where everyone is in control of their cars, But handling a car 
+isn't just about steering, it's about having the set of skills 
+and knowledge needed to tame the manister. We believe 
+that driving is based on science and skills, fortunately 
+science can be taught and skills can be acquired, therefore 
+we made it our mission to train any enthusiast the required 
+skills to drive professionally, no matter the cost.</span></p>
+<br><br>
+              <button class="button-readmore" onclick="myFunction()" id="myBtn">Read more</button>
+            <div class="social">
+                <a href="https://wa.me/+96181000420/"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://vm.tiktok.com/ZSd6YLvoV/"><i class="fab fa-tiktok"></i></a>
+                <a href="https://instagram.com/simhazeracing?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+        <div class="image-section">
+            <img src="logo.png">
+        </div>
+    </div>
+</div>
+<br><br><br><br>
+<!-- contact us begin -->
+<div id="contactus" class="feedback">
+  <form action="https://formsubmit.co/kikoa9511@gmail.com" method="POST">
+        <h3>Get In Touch</h3>
+        <input type="text" name="name" id="name" placeholder="Your Name" required>
+        <input type="email" name="email" id="email" placeholder="Your Email" required>
+        <input type="hidden" name="_next" value="http://simhazeracing.unaux.com/index.html">
+        <input type="hidden" name="_template" value="table">
+        <!-- <input type="hidden" name="_captcha" value="false"> -->
+        <input type="hidden" name="_autoresponse" value="Hello user! we are happy to serve your request we will serve you as soon as possible Thank you!">
+        <input type="tel" name="number" id="phone" placeholder="Your Phone Number" pattern="[0-9]{8}" title="The requested form is 8 digits" required>
+        <textarea name="message" id="message" rows="4" placeholder="How can we help you?" required></textarea>
+        <input type="hidden" name="_replyto" value="Welcome in the Sim World, we will serve you as soon as possible">
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+</body>
+</html>

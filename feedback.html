@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Sim Haze Racing</title>
+  <link rel="icon" href="logo.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <script src="https://smtpjs.com/v3/smtp.js"></script>
+</head>
+<body style="background-image: url(back.JPG);">
+  <div class="wrapper">
+    <nav>
+      <input type="checkbox" id="show-menu">
+      <label for="show-menu" class="menu-icon"><i class="fas fa-bars"></i></label>
+      <div class="content">
+      <div class="logo"><a href="index.html">Sim Haze Racing</a></div>
+        <ul class="links">
+          <li><a href="index.html">Home</a></li>
+          <li>
+            <a href="categories.html" class="desktop-link">Categories</a>
+            <input type="checkbox" id="show-features">
+            <label for="show-features">Categories</label>
+            <ul>
+              <li><a href="pdf/beginner.pdf">Beginner</a></li>
+              <li><a href="amacat.html">Amateur</a></li>
+              <li><a href="procat.html">Professional</a></li>
+              <li><a href="diy.html">DIY</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="accessories.html" class="desktop-link">Accessories</a>
+            <input type="checkbox" id="show-services">
+            <label for="show-services">Accessories</label>
+            <ul>
+              <li><a href="acsw.html">Steering Wheels</a></li>
+              <li><a href="pdf/seats.pdf">Seats</a></li>
+              <li><a href="pdf/screenstand.pdf">Screen Mount</a></li>
+              <li>
+                <a href="#" class="desktop-link">More Items</a>
+                <input type="checkbox" id="show-items">
+                <label for="show-items">More Items</label>
+                <ul>
+                  <li><a href="pdf/cmount.pdf">Cockpit Mount</a></li>
+                  <li><a href="pdf/add">Add-ons</a></li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="#">About</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+      </div>
+      <div></div>
+    </nav>
+  </div>
+  <br><br><br><br><br>
+  <!-- home begin -->
+  <div class="feedback">
+    <form action="https://formsubmit.co/kikoa9511@gmail.com" method="POST">
+          <h3>Get In Touch</h3>
+          <input type="text" name="name" id="name" placeholder="Your name" required>
+          <input type="email" name="email" id="email" placeholder="Your Email" required>
+          <input type="hidden" name="_next" value="http://simhazeracing.unaux.com/index.html">
+          <input type="hidden" name="_template" value="table">
+          <!-- <input type="hidden" name="_captcha" value="false"> -->
+          <input type="hidden" name="_autoresponse" value="Hello user! we are happy to serve your request we will serve you as soon as possible Thank you!">
+          <input type="tel" name="number" id="phone" placeholder="Your Phone Number" pattern="[0-9]{8}" title="The requested form is 8 digits" required>
+          <textarea name="message" id="message" rows="4" placeholder="How can we help you?" required></textarea>
+          <input type="hidden" name="_replyto" value="Welcome in the Sim World, we will serve you as soon as possible">
+          <button type="submit">Send</button>
+      </form>
+  </div>
+
+</body>
+</html>
